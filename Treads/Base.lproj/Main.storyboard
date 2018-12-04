@@ -174,15 +174,15 @@
                                 <rect key="frame" x="253" y="552" width="75" height="75"/>
                                 <state key="normal" image="pauseButton"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunButton" translatesAutoresizingMaskIntoConstraints="NO" id="ZSX-oS-jGh">
-                                <rect key="frame" x="55" y="561" width="57" height="57"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Run" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1E-2W-wiv">
                                 <rect key="frame" x="156.5" y="579.5" width="68.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunButton" translatesAutoresizingMaskIntoConstraints="NO" id="ZSX-oS-jGh">
+                                <rect key="frame" x="55" y="561" width="57" height="57"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -214,6 +214,10 @@
                         <viewLayoutGuide key="safeArea" id="HsY-C8-faA"/>
                     </view>
                     <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="sliderImageView" destination="ZSX-oS-jGh" id="DxT-Ye-MYQ"/>
+                        <outlet property="swipeBGImageView" destination="hxY-iB-WYE" id="XHT-r6-iWE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8RG-Fd-ML5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
