@@ -2,15 +2,16 @@
 //  LocationVC.swift
 //  Treads
 //
-//  Created by Jacob Luetzow on 6/16/17.
-//  Copyright © 2017 Jacob Luetzow. All rights reserved.
+//  Created by gdm on 12/3/18.
+//  Copyright © 2018 gdm. All rights reserved.
 //
 
 import UIKit
 import MapKit
 
+
 class LocationVC: UIViewController, MKMapViewDelegate {
-    
+
     var manager: CLLocationManager?
     
     override func viewDidLoad() {
@@ -25,6 +26,4 @@ class LocationVC: UIViewController, MKMapViewDelegate {
             manager?.requestWhenInUseAuthorization()
         }
     }
-
-
 }
