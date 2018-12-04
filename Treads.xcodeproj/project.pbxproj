@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80B37F621B727BB004401B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B37F521B727BB004401B1 /* Extensions.swift */; };
 		D81C2F2D21B5EE9D0003DED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C2F2C21B5EE9D0003DED6 /* AppDelegate.swift */; };
 		D81C2F2F21B5EE9D0003DED6 /* BeginRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C2F2E21B5EE9D0003DED6 /* BeginRunVC.swift */; };
 		D81C2F3121B5EE9D0003DED6 /* RunLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C2F3021B5EE9D0003DED6 /* RunLogVC.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D80B37F521B727BB004401B1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D81C2F2921B5EE9D0003DED6 /* Treads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81C2F2C21B5EE9D0003DED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D81C2F2E21B5EE9D0003DED6 /* BeginRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunVC.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		D81C2F4121B5F2930003DED6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D80B37F521B727BB004401B1 /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D81C2F5921B6074A0003DED6 /* CurrentRunVC.swift in Sources */,
+				D80B37F621B727BB004401B1 /* Extensions.swift in Sources */,
 				D81C2F3121B5EE9D0003DED6 /* RunLogVC.swift in Sources */,
 				D81C2F2D21B5EE9D0003DED6 /* AppDelegate.swift in Sources */,
 				D81C2F2F21B5EE9D0003DED6 /* BeginRunVC.swift in Sources */,
