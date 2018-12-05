@@ -12,15 +12,10 @@ import MapKit
 class CurrentRunVC: LocationVC {
 
     @IBOutlet weak var swipeBGImageView: UIImageView!
-    
     @IBOutlet weak var sliderImageView: UIImageView!
-    
     @IBOutlet weak var durationLabel: UILabel!
-    
     @IBOutlet weak var paceLabel: UILabel!
-    
     @IBOutlet weak var distanceLabel: UILabel!
-    
     @IBOutlet weak var pauseButton: UIButton!
     
     var startLocation: CLLocation!
